@@ -73,8 +73,14 @@ nav a {
   
 
 /* Styling for the table body */
-tbody {
-  background-color: lightgreen; /* Sets the background color to light green */
-  border: 2px solid brown;      /* Adds a 2px solid black border around the body */
+thead {
+  background-color: green; /* Sets the background color to dark green */
+  border: 10px solid black;      /* Adds a 2px solid black border around the body */
+  color: white;
 }
 
+tbody {
+  background-color: lightgreen; /* Sets the background color to light green */
+  border: 10px solid brown;      /* Adds a 2px solid brown border around the body */
+}
+/* End of Addition - Prof. Wright*/
