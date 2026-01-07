@@ -42,10 +42,13 @@ nav ul {
   line-height: 2em;
 }
 
-a {
+/* Color ivory commented by Prof. W*/
+/*a {
   color ivory;
   text-decoration: none;
 }
+*/
+
 header > h1 {
   text-align: center;
   font-family: Impact, sans-serif;
@@ -108,7 +111,7 @@ nav a {
 }
 
 nav a:hover {
-  background-color: rgba(52, 52, 180, 0.2);
+  /*background-color: rgba(52, 52, 180, 0.2);*/
 }
 
 /* Section hover zoom effect */
@@ -140,16 +143,16 @@ section:hover {
 }
 
 .projects-table thead th {
-  background-color: rgba(52, 52, 180, 0.2);
+  /*background-color: rgba(52, 52, 180, 0.2);*/
 }
 
 /* Column background colors using colgroup */
 .projects-table .col-1 {
-  background-color: rgba(52, 52, 180, 0.12);
+  /*background-color: rgba(52, 52, 180, 0.12);*/
 }
 
 .projects-table .col-3 {
-  background-color: rgba(52, 52, 180, 0.12);
+  /*background-color: rgba(52, 52, 180, 0.12);*/
 }
 
 }
