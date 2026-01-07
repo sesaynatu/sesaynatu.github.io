@@ -98,21 +98,14 @@ section {
     margin-bottom: 25px;
     
     /* Use borders, box shadows, and background colors to distinguish content areas */
-    background-color: skyblue; /* sky blue background for contrast */
-    border: 1px solid #ddd; /* Subtle border */
-    border-radius: 5px; /* Slightly rounded corners */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05); /* Soft box shadow */
+     background-color: lightgreen; /* Sets the background color to light green */
+     border: 2px solid black;      /* Adds a 2px solid black border around the body */
 }
 
 
 /* End of addition Prof. W.*/
    
-/*a {
-  color: ivory;
-  text-decoration: none;
-}
--------------- This was commented by Prof Wright
-*/
+
 
 a:hover {
   text-decoration: underline;
@@ -127,25 +120,7 @@ nav a {
   transition: background-color 0.3s ease;
 }
 
-nav a:hover {
-  /*background-color: rgba(52, 52, 180, 0.2);*/
-  /*there's already one at the top for nav a: hover so i commented this*/
-}
 
-/* Section hover zoom effect */
-section {
-   background-color: white; /*try black on white*/
-   color: black;
-   padding: 20px;
-   margin: 20px auto; 
-   border-radius: 8px;
-   transition: transform 0.3s ease;
-   box-shadow: 0 0 10px gray;
-}
-
-section:hover {
-  transform: scale(1.02);
-}
 
 /* Table styling */
    /* Added by Prof. W*/
