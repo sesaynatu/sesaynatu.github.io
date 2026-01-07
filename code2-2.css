@@ -148,31 +148,4 @@ section:hover {
 }
 
 /* Table styling */
-.projects-table {
-  width: 100%;
-  border-collapse: collapse;
-  margin-top: 12px;
-}
 
-.projects-table th,
-.projects-table td {
-  border: 1px solid #333;
-  padding: 10px;
-  vertical-align: top;
-}
-
-.projects-table thead th {
-   background-color: rgba(52, 52, 180, 0.2);
-   
-}
-
-/* Column background colors using colgroup */
-.projects-table .col-1 {
-  background-color: rgba(52, 52, 180, 0.12);
-}
-
-.projects-table .col-3 {
-  background-color: rgba(52, 52, 180, 0.12);
-}
-
-/*}     Commented this extra character*/
