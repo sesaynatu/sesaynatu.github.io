@@ -15,10 +15,14 @@
         color: white;
        text-align:center;
       padding: 20px;}*/
+body{
+   background: light blue; /*Task 1 background */
+}
 header > h1 {
-  background-color: blue;
+  background-color: blue; /* Task 2, header background */
+   padding: 20px; /* Task 2 add padding to header*/
   text-align: center;
-  font-family: Impact, sans-serif;
+  font-family: Impact, sans-serif; /* Task 2, change font*/
   font-size: 3em;
 }
 
@@ -30,7 +34,7 @@ nav > h1 {
 }
 
 nav ul {
-  list-style-type: none;
+  list-style-type: none; /*  Task 3, Remove bullet points */
   line-height: 2em;
 }
 
