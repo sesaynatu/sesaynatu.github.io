@@ -60,4 +60,55 @@ a {
 
 a:hover {
   text-decoration: underline;
+
+   /* ===== Project 3.9 Requirements ===== */
+
+/* Navigation link transition */
+nav a {
+  display: inline-block;
+  padding: 8px 12px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+  background-color: rgba(52, 52, 180, 0.2);
+}
+
+/* Section hover zoom effect */
+section {
+  transition: transform 0.3s ease;
+}
+
+section:hover {
+  transform: scale(1.02);
+}
+
+/* Table styling */
+.projects-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 12px;
+}
+
+.projects-table th,
+.projects-table td {
+  border: 1px solid #333;
+  padding: 10px;
+  vertical-align: top;
+}
+
+.projects-table thead th {
+  background-color: rgba(52, 52, 180, 0.2);
+}
+
+/* Column background colors using colgroup */
+.projects-table .col-1 {
+  background-color: rgba(52, 52, 180, 0.12);
+}
+
+.projects-table .col-3 {
+  background-color: rgba(52, 52, 180, 0.12);
+}
+
 }
