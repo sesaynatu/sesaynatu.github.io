@@ -40,6 +40,8 @@ nav ul {
 
 nav ul li {
     display: inline-block; /* Style the section list to appear horizontally */
+    color: red; /*you can change the colors Taphanatu*/
+    font-size: 20px;
 }
 
 nav ul li a {
