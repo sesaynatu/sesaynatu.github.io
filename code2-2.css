@@ -148,4 +148,15 @@ section:hover {
 }
 
 /* Table styling */
+   /* Added by Prof. W*/
+   thead {
+  background-color: lightgreen; /* Sets the background color to light green */
+  border: 2px solid black;      /* Adds a 2px solid black border around the header */
+}
+
+/* Styling for the table body */
+tbody {
+  background-color: lightgreen; /* Sets the background color to light green */
+  border: 2px solid black;      /* Adds a 2px solid black border around the body */
+}
 
