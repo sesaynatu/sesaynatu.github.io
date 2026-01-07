@@ -47,7 +47,7 @@ nav ul li {
 
 nav ul li a {
     display: block;
-    color: white;
+    /*color: white;*/
     text-align: center;
     padding: 14px 20px;
     text-decoration: none;
@@ -99,7 +99,7 @@ section {
     margin-bottom: 25px;
     
     /* Use borders, box shadows, and background colors to distinguish content areas */
-    background-color: #ffffff; /* White background for contrast */
+    background-color: skyblue; /* sky blue background for contrast */
     border: 1px solid #ddd; /* Subtle border */
     border-radius: 5px; /* Slightly rounded corners */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05); /* Soft box shadow */
@@ -108,10 +108,12 @@ section {
 
 /* End of addition Prof. W.*/
    
-a {
+/*a {
   color: ivory;
   text-decoration: none;
 }
+-------------- This was commented by Prof Wright
+*/
 
 a:hover {
   text-decoration: underline;
