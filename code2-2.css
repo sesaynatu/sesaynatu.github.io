@@ -64,6 +64,7 @@ article > h1 {
 nav ul {
   list-style-type: none;
   line-height: 2em;
+  display: flex;   /* Added Prof. W*/
 }
 /** More changes/addition Prof. W. */
 nav ul li a:hover, /* Task 3 hover */
