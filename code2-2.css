@@ -11,6 +11,10 @@
    Filename: code2-2.css
 
 */
+header{ background-color: #333;
+        color: white;
+       text-align:center;
+      padding: 20px;}
 header > h1 {
   text-align: center;
   font-family: Impact, sans-serif;
@@ -77,7 +81,12 @@ nav a:hover {
 
 /* Section hover zoom effect */
 section {
-  transition: transform 0.3s ease;
+background-color: blue;
+   padding: 20px;
+   margin: 20px auto; 
+   border-radius: 8px;
+  /*transition: transform 0.3s ease;*/
+   box-shadow: 0 0 10px gray;
 }
 
 section:hover {
@@ -112,3 +121,5 @@ section:hover {
 }
 
 }
+footer{ background-color: light blue;
+      color:white;}
