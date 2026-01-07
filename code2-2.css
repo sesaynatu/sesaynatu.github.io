@@ -57,12 +57,7 @@ nav ul li a {
 
 
 
-/* Color ivory commented by Prof. W*/
-/*a {
-  color ivory;
-  text-decoration: none;
-}
-*/
+
 
 header > h1 {
   text-align: center;
@@ -98,7 +93,7 @@ section {
     margin-bottom: 25px;
     
     /* Use borders, box shadows, and background colors to distinguish content areas */
-     background-color: lightgreen; /* Sets the background color to light green */
+     background-color: green; /* Sets the background color to light green */
      border: 2px solid black;      /* Adds a 2px solid black border around the body */
 }
 
@@ -125,13 +120,13 @@ nav a {
 /* Table styling */
    /* Added by Prof. W*/
    thead {
-  background-color: lightgreen; /* Sets the background color to light green */
-  border: 2px solid black;      /* Adds a 2px solid black border around the header */
+  background-color: green; /* Sets the background color to light green */
+  border: 2px solid brown;      /* Adds a 2px solid black border around the header */
 }
 
 /* Styling for the table body */
 tbody {
   background-color: lightgreen; /* Sets the background color to light green */
-  border: 2px solid black;      /* Adds a 2px solid black border around the body */
+  border: 2px solid brown;      /* Adds a 2px solid black border around the body */
 }
 
