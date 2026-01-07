@@ -162,9 +162,7 @@ section:hover {
 
 .projects-table thead th {
    background-color: rgba(52, 52, 180, 0.2);
-   /* Added border and padding - Prof W.*/
-   border: 1px solid rgb(160, 160, 160); /* Adds borders to all sides of all header and data cells */
-   padding: 8px 10px; /* Optional: Adds spacing within cells */
+   
 }
 
 /* Column background colors using colgroup */
@@ -178,3 +176,10 @@ section:hover {
 
 /*}     Commented this extra character*/
 
+footer {
+  text-align: center;
+  font-size: 0.85rem;
+  padding: 15px;
+  background-color: #2c3e50;
+  color: #ffffff;
+}
