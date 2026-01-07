@@ -11,7 +11,7 @@ header {
     font-weight: bold;
     padding: 20px;
     background-color: #3f51b5;
-    color: white;
+    color: yellow;
 }
 
 nav ul {
@@ -45,15 +45,15 @@ section {
     margin: 20px;
     background-color: white;
     border-radius: 8px;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 2px 6px black;
 }
 
 footer {
-    font-size: 0.9em;
+    font-size: 0.6em;
     text-align: center;
     padding: 15px;
-    background-color: #333;
-    color: #f4f4f4;
+    background-color: darkblue;
+    color: ivory;
 }
 
    /* ===== Project 3.9 Requirements ===== */
@@ -72,7 +72,7 @@ nav a {
    /* Added by Prof. W*/
   
 
-/* Styling for the table body */
+/* Styling for the table head and body */
 thead {
   background-color: green; /* Sets the background color to dark green */
   border: 10px solid black;      /* Adds a 2px solid black border around the body */
