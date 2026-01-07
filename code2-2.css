@@ -129,6 +129,7 @@ nav a {
 
 nav a:hover {
   /*background-color: rgba(52, 52, 180, 0.2);*/
+  /*there's already one at the top for nav a: hover so i commented this*/
 }
 
 /* Section hover zoom effect */
@@ -137,7 +138,7 @@ background-color: blue;
    padding: 20px;
    margin: 20px auto; 
    border-radius: 8px;
-  /*transition: transform 0.3s ease;*/
+   transition: transform 0.3s ease;
    box-shadow: 0 0 10px gray;
 }
 
@@ -160,18 +161,18 @@ section:hover {
 }
 
 .projects-table thead th {
-  /*background-color: rgba(52, 52, 180, 0.2);*/
+  background-color: rgba(52, 52, 180, 0.2);
 }
 
 /* Column background colors using colgroup */
 .projects-table .col-1 {
-  /*background-color: rgba(52, 52, 180, 0.12);*/
+  background-color: rgba(52, 52, 180, 0.12);
 }
 
 .projects-table .col-3 {
-  /*background-color: rgba(52, 52, 180, 0.12);*/
+  background-color: rgba(52, 52, 180, 0.12);
 }
 
 }
-footer{ background-color: dark blue; /*Added Prof. W*/
-      color:white;}
+footer{  /*Added Prof. W*/
+      color:red;}
