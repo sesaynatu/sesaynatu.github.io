@@ -40,6 +40,8 @@ nav > h1 {
 nav ul {
   list-style-type: none; /*  Task 3, Remove bullet points */
   line-height: 2em;
+  display: inline-block; /* Aligns items horizontally -- Added by Prof. W*/
+  margin-right: 20px; /* Adds space to the right of each item -- Added by Prof W */
 }
 
 /* Color ivory commented by Prof. W*/
