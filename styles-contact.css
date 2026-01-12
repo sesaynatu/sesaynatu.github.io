@@ -1,0 +1,61 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 16px;
+  font-family: Arial, sans-serif;
+}
+
+.nav, .content {
+  border: 1px solid #ccc;
+  padding: 16px;
+  border-radius: 8px;
+}
+
+#myForm {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+input, textarea {
+  padding: 8px;
+  border: 1px solid #888;
+  border-radius: 6px;
+  transition: border-color 0.3s ease;
+}
+
+input:focus, textarea:focus {
+  border-color: #000;
+  outline: none;
+}
+
+button {
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #eaeaea;
+}
+
+/* Responsive Design */
+@media (min-width: 768px) {
+  .page {
+    flex-direction: row;
+  }
+
+  .nav {
+    width: 25%;
+  }
+
+  .content {
+    width: 75%;
+  }
+}
