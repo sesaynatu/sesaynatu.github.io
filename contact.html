@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Metadata -->
+  <meta charset="UTF-8">
+  <meta name="description" content="A second HTML page called from index.html that accepts contact information.">
+  <meta name="keywords" content="HTML, contacts page">
+  <meta name="author" content="Your Name">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Index HTML Page ver.2 Project 4.8</title>
+
+  <!-- Contact page CSS -->
+  <link href="styles-contact.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- Main Flex Container -->
+  <div class="page">
+
+    <!-- Navigation -->
+    <nav class="nav">
+      <h2>Navigation</h2>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="contact.html" target="_blank">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="content">
+      <h1>Contact Form</h1>
+
+      <!-- Required Form -->
+      <form id="myForm"
+            action="mailto:"tapses1661@students.ecpi.edu
+            method="POST"
+            enctype="text/plain">
+
+        <div class="form-group">
+          <label for="name">Name *</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email *</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+
+        <div class="form-group">
+          <label for="subject">Subject</label>
+          <input type="text" id="subject" name="subject">
+        </div>
+
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5"></textarea>
+        </div>
+
+        <button type="submit">Submit</button>
+      </form>
+
+      <!-- Script message output -->
+      <p id="messageArea"></p>
+
+      <!-- Required Back Button -->
+      <button onclick="history.back()">Back</button>
+    </main>
+
+  </div>
+
+  <!-- REQUIRED JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
