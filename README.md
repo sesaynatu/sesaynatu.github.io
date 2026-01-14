@@ -20,8 +20,7 @@ Repository URL: https://github.com/sesaynatu/sesaynatu.github.io
 ![Local Hosting Screenshot](./images/local-hosting-screenshot.png)
 
 ## Web Design Assistant Chat Link
-Chat Link: (Chat Link: https://genai.ecpi.edu/share/XXXXXXXX
-)
+Chat Link: https://genai.ecpi.edu/share/XXXXXX
 
 ## Notes
 GitHub Pages required the main branch and root folder to be selected before the site became available.
