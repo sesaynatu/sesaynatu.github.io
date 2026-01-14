@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Blog Website</title>
+
+  <!-- Task 3: Link stylesheet -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <!-- Task 1: Header with blog name -->
+  <header class="site-header fade-in">
+    <h1 id="home">My Blog Website</h1>
+
+    <!-- Task 1: Nav with 3 internal links -->
+    <nav class="site-nav" aria-label="Primary navigation">
+      <a href="#home">Home</a>
+      <a href="#blog">Blog</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Task 1: Main content -->
+  <main class="site-main fade-in">
+    <!-- Blog Section -->
+    <section id="blog" class="blog-section">
+      <h2>Latest Posts</h2>
+
+      <!-- Articles container for Flexbox layout -->
+      <div class="articles">
+        <!-- Task 1: Article #1 with two paragraphs -->
+        <article class="post">
+          <h3>Post One: Staying Consistent</h3>
+          <p>
+            Consistency is built through small actions repeated daily. When you focus on progress over perfection,
+            you start to create routines that support your goals.
+          </p>
+          <p>
+            One simple method is to set a short daily target, complete it, and track it. Over time, those small wins
+            add up to meaningful improvement.
+          </p>
+        </article>
+
+        <!-- Task 1: Article #2 with two paragraphs -->
+        <article class="post">
+          <h3>Post Two: Learning by Doing</h3>
+          <p>
+            The fastest way to learn web development is to build projects and test your code often. Each mistake teaches
+            you something valuable and helps you grow.
+          </p>
+          <p>
+            Break tasks into steps: create structure, add styles, then improve responsiveness. This keeps the work clear,
+            organized, and easier to debug.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Task 1: Contact Section -->
+    <section id="contact" class="contact-section">
+      <h2>Contact Me</h2>
+      <p class="contact-info">
+        Use the form below to reach out. I’ll respond as soon as possible.
+      </p>
+
+      <!-- Task 2: Contact form with required fields except Subject -->
+      <form class="contact-form" action="#" method="post">
+        <div class="form-row">
+          <label for="name">Name <span class="required">*</span></label>
+          <input type="text" id="name" name="name" required />
+        </div>
+
+        <div class="form-row">
+          <label for="email">Email <span class="required">*</span></label>
+          <input type="email" id="email" name="email" required />
+        </div>
+
+        <div class="form-row">
+          <label for="subject">Subject</label>
+          <input type="text" id="subject" name="subject" />
+        </div>
+
+        <div class="form-row">
+          <label for="message">Message <span class="required">*</span></label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+        </div>
+
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <!-- Task 1: Footer with studentID + copyright -->
+  <footer class="site-footer fade-in">
+    <p>StudentID: <strong>YOUR_STUDENT_ID_HERE</strong> &copy; 2026</p>
+  </footer>
+</body>
+</html>
